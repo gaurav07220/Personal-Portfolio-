@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- link css here -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <span>PORTFOLIO</span>
+
+                <ul id="sideMenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Service">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" id="closeMenu"></i>
+                </ul>
+
+                <i class="fas fa-bars" id="openMenu"></i>
+            </nav>
+            <br> <br><br> <br>
+
+            <div class="header-text">
+                <h1>
+                    Hi , I'm <span>Gaurav</span><br />
+                    From Pune
+                </h1>
+                <p>Front-End Developer</p>
+                <!-- <p class="profile">Skilled web designer with expertise in HTML, CSS, JS, and Bootstrap.<br>
+                    Seeking a web development position to create impactful digital solutions.
+                    </p> -->
+            </div>
+        </div>
+    </div>
+    <!-- --------------------about------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg" alt="" />
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-heading">About Me</h1>
+                    <p>
+                        Solid Understanding Of Front-Ent Development. Able To Design And Develop Basic Web Applications
+                        With User-Friendly Interfaces. Possesses Strong Problem-Solving Skills, And Able To Learn New
+                        Technologies Quickly. A Team Player With Excellent Communication And Interpersonal Skills, And A
+                        Desire To Contribute To The Success Of Projects. Enthusiastic About Pursuing A Career In Web
+                        Development And Committed To Delivering High-Quality Results.
+                    </p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="openSkills('skills')">Skills</p>
+                       
+                        <p class="tab-links" onclick="openSkills('education')">Education</p>
+                        <p class="tab-links" onclick="openSkills('Strenth')">Extra</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>H  T  M  L</span></li>
+                            <li><span>C  S  S</span><br /></li>
+                            <li> <span>BOOSTRAP</span><br /> </li>
+                            <li><span>JAVASCRIPT</span><br /></li>
+                            <li><span>C Programming</span></li>
+                            <li><span>Visual Studio</span></li>
+
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><i class="year">2022 - Studying</i> <br> Master Of Computer Applications <br> Chandigarh University</span></li> <br>
+                            <li><span><i class="year">2019 - 2022 <br></i> Graduation <br>  BAMU University , Aurangabad</span></li> <br>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Strenth">
+                        <ul><li>1)  <span>Full Stack Web Development From Delhi</span></li>
+                            <li>2)  <span>C Programming Completation Certeficate From Softaid Computer , Jalgaon</span></li>
+                            <li>3)  <span>Python Programming Completation Certeficate From Udemy Online Platform</span></li>
+                            <li>4)  <span> Certeficate For Atteding Session On javascript Inheritance Bootcamp At Skill Lync </span></li>
+                            <li>5)  <span>Html,Css,JavaScript  Certeficate From Mindluster Online Platform</span></li>
+                            <li>6)  <span>Free Online javascript Completation Certeficate From Great Learning</span></li>
+                            <li>7)  <span>Participated One Day Virtual Workshop On Python At Sky Rider Institute</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------------------Services-------------------- -->
+    <div id="Service">
+        <div class="container">
+            <h1 class="sub-heading">My Services</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p class="project-summary">Creating elegant and intuitive web designs to help businesses grow.
+                        Bringing fresh ideas to life through thoughtful web design.
+                        Crafting modern and dynamic websites to showcase your brand online.
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p class="project-summary">Building responsive and user-friendly websites with HTML, CSS, and
+                        JavaScript.
+                        Transforming designs into interactive and functional web experiences.
+                        Creating engaging and dynamic front-end solutions to enhance user experiences </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>UI</h2>
+                    <p class="project-summary">User-focused UI design that enhances user experiences.
+                        Designing interfaces that are beautiful and easy to use.
+                        Crafting interfaces that are intuitive and engaging for users.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------- ---------portfolio---------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-heading">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce Website</h3>
+                        <p>An E-Commerce Website Which Used To Show Category Wise Results And Also
+                            Products Wise And After Adding To Cart, Cart List Was Also Created. And The Quantity Of Cart
+                            Products Could Be More Or Less</p>
+                        <a href="https://gaurav07220.github.io/Ecomerce-Website/"> <i
+                                class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Weather Web App</h3>
+                        <p>A Weather App Was Made Which Used To Give You Complete Weather Information According To Your
+                            City</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Quotes Maker App</h3>
+                        <p>An Quote Generator website was created and whatever Quote would have been written, it was
+                            also downloaded.</p>
+                        <a href="#"> <i class="fas fa-external-link-alt"></i> </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ------------------------contact--------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-heading">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>gauravchavhan05@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>8830894932</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/gaurav-chavan-b113ab238"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="#"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Gaurav Chavhan PSD.pdf" class="btn resume" download>Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" id="form" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messege"></textarea>
+                        <button type="submit" class="btn submit">Submit</button>
+                    </form>
+                    <span id="doneMsg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright made by Gaurav Chavhan </p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <script>
+
+
+
+
+
+        let skill_links = document.querySelectorAll('.tab-links');
+        let skill_contents = document.querySelectorAll('.tab-contents')
+
+        function openSkills(skillName) {
+            skill_links.forEach(val => {
+                val.classList.remove('active-link')
+            })
+            skill_contents.forEach(val => {
+                val.classList.remove('active-tab')
+            })
+            event.currentTarget.classList.add('active-link')
+            document.getElementById(skillName).classList.add('active-tab')
+        }
+
+        let openMenu = document.getElementById('openMenu')
+        let closeMenu = document.getElementById('closeMenu')
+        let sideMenu = document.getElementById('sideMenu');
+        openMenu.addEventListener('click', (e) => {
+            sideMenu.style.right="0";
+            console.log('open')
+        })
+        closeMenu.onclick = () => {
+            sideMenu.style.right="-200px";
+            console.log('cose')
+
+        }
+
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyxKt975nm6YwC2BAD4NGrCnZXodWI-i8T2nau-YTGtb7-_Q0KdXDd_azcTyEl_5syq/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('doneMsg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            document.querySelector('.submit').textContent = 'Wait......'
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    document.querySelector('.submit').textContent = 'Submit';
+                    msg.textContent = 'Thank you for your Messege.. Your Messege has been sent to Gaurav Chavan.'
+                    setTimeout(() => {
+                        msg.textContent = "";
+                    }, 7000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/b7fb35c2b9.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
